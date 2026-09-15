@@ -1,0 +1,14 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenido</h1>
+    <p>Gestiona héroes y sus superpoderes con Razor Pages y Database First.</p>
+    <p>
+        <a class="btn btn-primary" asp-page="/Heroes/Index">Ver héroes</a>
+        <a class="btn btn-outline-primary" asp-page="/SuperPoderes/Index">Ver superpoderes</a>
+    </p>
+</div>
